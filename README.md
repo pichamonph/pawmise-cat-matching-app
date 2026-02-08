@@ -2,8 +2,6 @@
 
 **A cat-matching mobile application** that helps cat owners find compatible breeding partners for their cats. Built with React Native (Expo) on the frontend and Express.js with MongoDB on the backend, Pawmise features Tinder-style swiping, location-based matching, real-time chat via Socket.IO, and a daily interest system — all wrapped in a soft pink UI designed for cat lovers.
 
----
-
 ## Table of Contents
 
 - [Features](#features)
@@ -14,8 +12,6 @@
 - [Database Schema](#database-schema)
 - [API Routes](#api-routes)
 - [Role-Based Access](#role-based-access)
-
----
 
 ## Features
 
@@ -33,8 +29,6 @@
 - **Dark Mode** — Toggle between light and dark themes, persisted in local storage.
 - **Account Deletion** — Full cascading delete of user data, cats, swipes, matches, messages, and Cloudinary images.
 
----
-
 ## Screenshots
 
 > The project uses Cloudinary for dynamic user-uploaded images. Below are the app's static assets:
@@ -46,8 +40,6 @@
 | App Icon | Favicon | Android Foreground |
 |:---:|:---:|:---:|
 | <img src="sourceCode/frontend_cat-tinder/assets/images/icon.png" width="150"/> | <img src="sourceCode/frontend_cat-tinder/assets/images/favicon.png" width="150"/> | <img src="sourceCode/frontend_cat-tinder/assets/images/android-icon-foreground.png" width="150"/> |
-
----
 
 ## Tech Stack
 
@@ -65,8 +57,6 @@
 | **Image Storage** | Cloudinary + Multer |
 | **Geolocation** | geolib + expo-location |
 | **Animations** | react-native-reanimated, react-native-gesture-handler |
-
----
 
 ## Project Structure
 
@@ -159,8 +149,6 @@ pawmise/
             └── fonts/                     # Custom TTF fonts
 ```
 
----
-
 ## Getting Started
 
 ### Prerequisites
@@ -246,8 +234,6 @@ pawmise/
 | `ios` | `npm run ios` | Run on iOS simulator/device |
 | `web` | `npm run web` | Run in web browser |
 | `lint` | `npm run lint` | Run ESLint |
-
----
 
 ## Database Schema
 
@@ -399,8 +385,6 @@ pawmise/
 | `read` | Boolean | default: `false`, indexed |
 | `sentAt` | Date | auto (createdAt alias) |
 
----
-
 ## API Routes
 
 All protected routes require the header: `Authorization: Bearer <token>`
@@ -478,8 +462,6 @@ All protected routes require the header: `Authorization: Bearer <token>`
 | `notification:new_message` | Server → Client | Message notification (outside room) |
 | `user:online` | Server → Client | User came online |
 | `user:offline` | Server → Client | User went offline |
-
----
 
 ## Role-Based Access
 
