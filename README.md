@@ -29,15 +29,31 @@
 
 ## Screenshots
 
-> The project uses Cloudinary for dynamic user-uploaded images. Below are the app's static assets:
+### Authentication
 
-| App Logo | Splash Screen | Cat Loft |
+| Login | Register (1/4) Account | Register (2/4) Avatar |
 |:---:|:---:|:---:|
-| <img src="sourceCode/frontend_cat-tinder/assets/images/logo.png" width="150"/> | <img src="sourceCode/frontend_cat-tinder/assets/images/splash-icon.png" width="150"/> | <img src="sourceCode/frontend_cat-tinder/assets/images/cat-loft.png" width="150"/> |
+| <img src="doc/screenshot/login.png" width="200"/> | <img src="doc/screenshot/register-1.png" width="200"/> | <img src="doc/screenshot/register-2.png" width="200"/> |
 
-| App Icon | Favicon | Android Foreground |
+| Register (3/4) Contact & Location | Allow Location Permission | Register (4/4) Password |
 |:---:|:---:|:---:|
-| <img src="sourceCode/frontend_cat-tinder/assets/images/icon.png" width="150"/> | <img src="sourceCode/frontend_cat-tinder/assets/images/favicon.png" width="150"/> | <img src="sourceCode/frontend_cat-tinder/assets/images/android-icon-foreground.png" width="150"/> |
+| <img src="doc/screenshot/register-3.png" width="200"/> | <img src="doc/screenshot/register-allow-address.png" width="200"/> | <img src="doc/screenshot/register-4.png" width="200"/> |
+
+### Cat Profile Setup
+
+| Add Cat (1/4) Photos | Add Cat (2/4) Basic Info | Add Cat (3/4) Breed & Health |
+|:---:|:---:|:---:|
+| <img src="doc/screenshot/addcat-1.png" width="200"/> | <img src="doc/screenshot/addcat-2.png" width="200"/> | <img src="doc/screenshot/addcat-3.png" width="200"/> |
+
+| Breed Picker | Add Cat (4/4) Traits & Notes |
+|:---:|:---:|
+| <img src="doc/screenshot/addcat-3-breed.png" width="200"/> | <img src="doc/screenshot/addcat-4.png" width="200"/> |
+
+### Core Features
+
+| Swipe Feed | It's a Match! | Messages List | Chat |
+|:---:|:---:|:---:|:---:|
+| <img src="doc/screenshot/swipe.png" width="200"/> | <img src="doc/screenshot/match.png" width="200"/> | <img src="doc/screenshot/message.png" width="200"/> | <img src="doc/screenshot/chat.png" width="200"/> |
 
 ## Tech Stack
 

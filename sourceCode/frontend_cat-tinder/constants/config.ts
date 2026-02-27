@@ -7,9 +7,9 @@ const getBaseUrl = () => {
   if (__DEV__) {
     // Development - ใช้ Platform-specific URLs
     if (Platform.OS === 'android') {
-      return 'http://192.168.110.207:5000'; // Android Emulator
+      return 'http://192.168.110.79:5000'; // Android Emulator
     }
-    return 'http://192.168.110.207:5000'; // iOS Simulator / Physical Device
+    return 'http://192.168.110.79:5000'; // iOS Simulator / Physical Device
   }
   return 'https://your-production-api.com'; // Production
 };
