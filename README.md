@@ -55,6 +55,10 @@
 |:---:|:---:|:---:|:---:|
 | <img src="doc/screenshot/swipe.png" width="200"/> | <img src="doc/screenshot/match.png" width="200"/> | <img src="doc/screenshot/message.png" width="200"/> | <img src="doc/screenshot/chat.png" width="200"/> |
 
+| Interests Dashboard | Profile | Cat Management |
+|:---:|:---:|:---:|
+| <img src="doc/screenshot/interest.jpeg" width="200"/> | <img src="doc/screenshot/profile.jpeg" width="200"/> | <img src="doc/screenshot/setting-cat.jpeg" width="200"/> |
+
 ## Tech Stack
 
 | Layer | Technology |
